@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(123, 194, 170);
+}
+
+.calculator{
+    display: inline-block;
+    padding: 48PX;
+    font-size: 2rem;
+}
+.container{
+    text-align: center;
+    margin-top: 350px;
+}
+h1{
+    margin-bottom: 50px;
+    font-size: 5rem;
+}
+.birthday{
+    /* to take it down */
+    display: block;
+}
+#birthday{
+    display: inline-block;
+}
