@@ -38,7 +38,7 @@ console.log(a.charAt(a.length-1));
 console.log(a[a.length-1]);  */
 
 
-var str = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+// var str = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
 
 //includes
 
@@ -59,6 +59,87 @@ console.log(str.indexOf('m')); // ilk bulduğu sonucu döndürür
 
 console.log(str.lastIndexOf('m')); // sondan başlar ilk bulduğu sonucu döndürür
  */
+
+//replace
+
+/* var s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+
+/* console.log(s.replace('dummy', 'hello'));
+ var str = s.replace('dummy', 'hello')
+// console.log(s.replace('uuuuuu', 'hello'));
+
+console.log(s);
+console.log(str); */
+
+//console.log(s.replace(/Dummy/i,'Hello')); //regex ile case sensitive 
+
+//console.log(s.replace(/e/g, '--')); //regex tümünü değiştir. */
+
+//search
+
+// var s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry. text";
+
+// console.log(s.indexOf('text', 30));
+// console.log(s.search('Text'));
+// console.log(s.search(/Text/i));
+
+
+// slice
+/* 
+var s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+
+// console.log(s.slice(0,5));
+// console.log(s.slice(6));
+console.log(s.slice(-31, -10));
+console.log(s.slice(-31, 76));
+console.log(s.slice(54, 76));
+ */
+
+//split
+/* 
+var s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+
+// console.log(s.split (' ')); // kelime kelime
+console.log(s.split ('')); //eleman elaman
+console.log(s.split ()); // komple tek array yapar
+ */
+
+//substr
+/* 
+var s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+
+console.log(s.substr(22,10));
+console.log(s.substr(22));
+ */
+
+//substring
+
+// var s = "Lorem Ipsum is simply dummy text of the printing and 'printing' typesetting industry.";
+
+// console.log(s.substring(22,33));
+// console.log(s.substring(33,22));
+// console.log(s.substring(6,-202));
+
+// toLowercase touppercase
+
+/* var pangram = "pijamalı hasta yağız şoföre çabucak güvendi"
+
+// console.log(pangram.toUpperCase());
+// console.log(pangram.toLocaleUpperCase('tr-TR'));
+
+var Pangram = pangram.toLocaleUpperCase('tr-TR');
+
+console.log(Pangram.toLowerCase());
+console.log(Pangram.toLocaleLowerCase()); */
+
+// trim
+var s = "                 <-Welcome \t to Clarus\tway->                 "
+
+console.log(s);
+
+console.log(s.trim());
+console.log(s.trimLeft());
+console.log(s.trimRight());
 
 
 
